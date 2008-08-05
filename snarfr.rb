@@ -1,4 +1,4 @@
-#! /usr/local/bin/ruby
+#! /usr/bin/env ruby -w
 # = snarfr.rb 
 # Download flickr images, saving metadata and geotags as EXIF tags. 
 # 

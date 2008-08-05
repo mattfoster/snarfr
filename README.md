@@ -9,6 +9,8 @@ It requires a few gems, notably:
   * mini_exiftool
   * facets/ostruct
 
+mini_exiftool requires the perl based [exiftool](http://www.sno.phy.queensu.ca/~phil/exiftool/ "ExifTool by Phil Harvey")
+
 To run it, type `ruby snarfr.rb`, or `chmod +x` it, and then do `./snarfr.rb`. It should then begin snarfing yours photos into `./output`, unless you've specified an output directory (as the first argument), in which case things will go there.
 
 snarfr *tries* to be intelligent by saving it's progress to the file `~/.snarfr`, but it only does this when it exits normally. On the first run, it will ask you to authorise it, to do that, you need to visit the URL it gives.
